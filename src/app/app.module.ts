@@ -12,6 +12,7 @@ import { MatButtonModule } from "@angular/material/button";
 import { MatIconModule } from "@angular/material/icon";
 import { OgloszenieFormComponent } from './ogloszenie-form/ogloszenie-form.component';
 import { MatSelectModule } from "@angular/material/select";
+import { FormsModule } from "@angular/forms";
 
 @NgModule({
   declarations: [
@@ -21,6 +22,7 @@ import { MatSelectModule } from "@angular/material/select";
   ],
   imports: [
     BrowserModule,
+    FormsModule,
     AppRoutingModule,
     BrowserAnimationsModule,
     MatCardModule,
