@@ -1,0 +1,40 @@
+<app-ogloszenie-form>
+  <div class="row">
+    <div class="col-md-4">
+      <label><b i18n>Wskaż lokalizację:</b></label>
+      <mat-form-field appearance="outline">
+        <input matInput/>
+      </mat-form-field>
+    </div>
+    <div class="col-md-2">
+      <label><b i18n>Ilość osób:</b></label>
+      <mat-form-field appearance="outline">
+        <input matInput type="number" min="1"/>
+      </mat-form-field>
+    </div>
+    <div class="col-md-3">
+      <label><b i18n>Czas pobytu</b></label>
+      <mat-form-field appearance="outline">
+        <mat-select placeholder="Wybierz">
+          <mat-option i18n>1 tydzień</mat-option>
+          <mat-option i18n>2 tygodnie</mat-option>
+          <mat-option i18n>1 miesiąc</mat-option>
+          <mat-option i18n>2 miesiące</mat-option>
+          <mat-option i18n>dłużej</mat-option>
+        </mat-select>
+      </mat-form-field>
+    </div>
+    <div class="col-md-3">
+      <label><b i18n>Język, w jakim mówi gospodarz:</b></label>
+      <mat-form-field appearance="outline">
+        <mat-select placeholder="Wybierz" multiple>
+          <mat-option i18n>Polski</mat-option>
+          <mat-option i18n>Angielski</mat-option>
+          <mat-option i18n>Ukraiński</mat-option>
+          <mat-option i18n>Niemiecki</mat-option>
+          <mat-option i18n>Rosyjski</mat-option>
+        </mat-select>
+      </mat-form-field>
+    </div>
+  </div>
+</app-ogloszenie-form>
